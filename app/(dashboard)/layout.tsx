@@ -1,3 +1,5 @@
+import Navbar from "@/components/navbar";
+
 const DasboardLayout = ({
   children
 }: {
@@ -11,7 +13,7 @@ const DasboardLayout = ({
         </div>
       </div>
       <main className="md:pl-72">
-       {/* <Navbar />  */}
+       <Navbar /> 
         {children}
       </main>
     </div>
